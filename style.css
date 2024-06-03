@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans Japanese';
+}
+
+:root {
+  --primary: #204172;
+  --secondary: #86A8E7;
+  --optional: #fe8a71;
+  --dark: #333333;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.text-optional {
+  color: var(--optional) !important;
+}
+
+.bg-optional {
+  background-color: var(--optional) !important;
+}
+
+.text-gray {
+  color: gray !important;
+}
+
+.text-dark {
+  color: var(--dark) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark) !important;
+}
+
+.info {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+/* header section */
+.top {
+  height: 60vh;
+  width: 100%;
+  position: fixed;
+  top: 40px;
+  z-index: 1;
+  background-image: linear-gradient(to right top, #000000, #190e14, #271725, #302139, #332d51, #383b65, #3b4a79, #3a598e, #4d6ca4, #607fba, #7393d0, #86a8e7);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ 
+.hero-content button {
+  box-shadow: 20px 20px 15px 1px rgba(00,00,00,0.2);
+}
+
+.hero-content button:hover {
+  box-shadow: none;
+}
+
+/* content section */
+.services {
+  position: relative;
+  top: calc(60vh + 40px);
+  z-index: 5;
+  background-image: url('./svgs/violet.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.services .nav-tabs {
+  border-bottom: 1px solid rgb(250, 246, 246);
+}
+
+.services .nav-link {
+  background: var(--primary) !important;
+  color: #fff !important;
+}
+
+.services .nav-link.corporation {
+  background-color: var(--secondary) !important;
+}
+
+.services .nav-link.active {
+  border-bottom: 0 !important;
+}
+
+.services .tab-content .card {
+  height: 300px; 
+  box-shadow: 2px 5px 10px #888888 !important;
+}
+
+.idea-and-introduction, .footer {
+  position: relative;
+  z-index: 2;
+  top: calc(60vh - 30px);
+}
+
+.footer {
+  background-image: linear-gradient(to right top, #000000, #190e14, #271725, #302139, #332d51, #383b65, #3b4a79, #3a598e, #4d6ca4, #607fba, #7393d0, #86a8e7);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+
+/*************** company info *****************************/
+.company-info {
+  position: relative;
+  top: calc(60vh + 40px);
+  z-index: 5;
+}
+table.tb-01{
+  width:100%;
+}
+table.tb-01 tr{
+  border-top:1px solid #333;
+}
+table.tb-01 tr:last-child{
+  border-bottom:1px solid #333;
+}
+table.tb-01 th, table.tb-01 td{
+  padding:24px 0;
+}
+table.tb-01 th{
+  width:30%;
+  font-weight:bold;
+  padding-left:15%;
+}
+table.tb-01 td{
+  width:80%;
+  padding: 0 1rem;
+}
+table.tb-01 td dt, table.tb-01 td dd{
+  float:left;
+}
+table.tb-01 td dt{
+  width:130px;
+}
+
+table.tb-01 td.related-td dl{
+  line-height:120%;
+}
+table.tb-01 td.related-td dt{
+  width:100%;
+  font-weight:bold;
+  border-bottom:#a1a1a1 1px dotted;
+  padding:5px 0;
+  float:none;
+  margin-top:0.5em;		}
+
+table.tb-01 td.related-td dd{
+  float:none;
+  padding:5px 0;
+}
+/*************** end company info *****************************/
+
+.recruit img{
+  width: 150px;
+  height: 150px;
+}
+.bg-gray{
+  background-color: #f7f5f5;
+}

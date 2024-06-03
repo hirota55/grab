@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link style="width: 10px; height: 10px;" rel="icon" href="/grab-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grab Japan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/animation.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/override.css">
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <script src="../components/navbar.js" type="text/javascript" defer></script>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <main class="position-relative">
+      <navbar-component></navbar-component>
+      <!-- Navbar Embaded Content Section -->
+      <section class="top">
+        <!-- Header Section -->
+        <header-component></header-component>
+        <!-- Content Section -->
+        <div class="hero-content d-flex justify-content-center align-items-center h-100 w-100 px-3">
+          <div class="title-tagline text-center text-light">
+            <h4 class="title text-light fw-bold">イノベーションをリードする<br/>ソフトウェア開発会社</h4>
+            <div class="tagline text-light mt-4">
+              当社は革新的なソフトウェアソリューションを提供する<br/>リーディングカンパニーです。
+              お客様のビジネスニーズに合わせてカスタマイズされた<br/>ソリューションを提供し、テクノロジーの力でビジネスを加速させます。
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services bg-light py-5">
+        <div class="container">
+          <h3 class="text-center text-primary fw-bold py-5">サービス</h3>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link border-0 active px-5 rounded-0 engineer col-7 col-md-4" id="nav-engineer-tab" data-bs-toggle="tab" data-bs-target="#nav-engineer" type="button" role="tab" aria-controls="nav-engineer" aria-selected="true">
+                <span class="my-0 text-nowrap">エンジニア様</span>
+              </button>
+              <button class="nav-link border-0 px-5 rounded-0 corporation col-5 col-md-3" id="nav-corporation-tab" data-bs-toggle="tab" data-bs-target="#nav-corporation" type="button" role="tab" aria-controls="nav-corporation" aria-selected="false">
+                <span class="my-0 text-nowrap">法人様</span>
+              </button>
+            </div>
+          </nav>
+          <div class="tab-content pt-2 pb-5 shadow-lg bg-light" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-engineer" role="tabpanel" aria-labelledby="nav-engineer-tab" tabindex="0">
+              <!-- <h5 class="text-center text-optional fw-bold">「困ったときに相談相手がいない」を解決します！</h5> -->
+              <div class="row px-3">
+                <div class="col-12 col-md-6">
+                  <div class="wrapper">
+                    <p class="fw-bold text-gray my-4 small text-nowrap">あなたのキャリアで、こんな悩みはありませんか？</p>
+                    <div class="card bg-primary text-light border-0 w-100">
+                      <div class="card-body pt-5">
+                        <p>1. 相談が充分できない</p>
+                        <p>2. リモート業務が孤独</p>
+                        <p>3. 中々給与が上がらない</p>
+                        <p>4. 残業が多い</p>
+                        <div class="mt-3 small">上記のような、御社がこれまで抱えてきた悩みを解消します。</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="wrapper">
+                    <p class="fw-bold text-gray my-4 small">グラァブの特徴</p>
+                    <div class="card bg-primary text-light border-0 w-100">
+                      <div class="card-body pt-5">
+                        <p>1. 職場環境の網羅的なリサーチ</p>
+                        <p>2. 適正な報酬への交渉</p>
+                        <p>3. 開発室の無料開放</p>
+                        <p>4. 相談無料サポート</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="nav-corporation" role="tabpanel" aria-labelledby="nav-corporation-tab" tabindex="0">
+              <!-- <h5 class="text-center">「プロジェクトが無事進んで良かった」をサポートします！</h5> -->
+              <div class="row px-3">
+                <div class="col-12 col-md-6">
+                  <div class="wrapper">
+                    <p class="fw-bold text-gray my-4 small text-nowrap">あなたのキャリアで、こんな悩みはありませんか？</p>
+                    <div class="card bg-secondary text-light rounded-0 border-0 w-100">
+                      <div class="card-body pt-5">
+                        <p>1. 相談が充分できない</p>
+                        <p>2. リモート業務が孤独</p>
+                        <p>3. 中々給与が上がらない</p>
+                        <p>4. 残業が多い</p>
+                        <div class="mt-3 small">上記のような、御社がこれまで抱えてきた悩みを解消します。</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="wrapper">
+                    <p class="fw-bold text-gray my-4 small">グラァブの特徴</p>
+                    <div class="card bg-secondary text-light rounded-0 border-0 w-100">
+                      <div class="card-body pt-5">
+                        <p>1. 職場環境の網羅的なリサーチ</p>
+                        <p>2. 適正な報酬への交渉</p>
+                        <p>3. 開発室の無料開放</p>
+                        <p>4. 相談無料サポート</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="recruit-info-btn text-center mt-5 pb-5">
+            <a href="/pages/recruit.html">
+              <button type="button" class="btn bg-optional shadow text-light text-center px-5 me-1 mt-4 py-3">
+                採用情報
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="idea-and-introduction bg-light position-relative mt-5">
+        <div class="container pt-5">
+          <h3 class="text-center text-primary fw-bold">株式会社グラァブ３つの指針 <span class="d-none d-md-inline-block"></span></h3>
+          <div class="row mt-5">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="/images/cooperation.jpg" class="img-fluid">
+                  </div>
+                  <div class="carousel-caption">
+                    <h5>好機をつかむ</h5>
+                    <span>grab at an opportunity</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="/images/khansu.png" class="img-fluid">
+                  </div>
+                  <div class="carousel-caption">
+                    <h5>観衆を魅了する</h5>
+                    <span>grab an audience</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="/images/audience.jpg" class="img-fluid">
+                  </div>
+                  <div class="carousel-caption">
+                    <h5>次世代がバトンを掴む</h5>
+                    <span>the next generation grabs the baton</span>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+          <div class="recruit-info-btn text-center mt-5 pb-5">
+            <a href="pages/contact.html">
+              <button type="button" class="btn bg-optional shadow text-light text-center px-5 me-1 mt-4 py-3">
+                お問い合わせ
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    <!-- **************** footer ****************-->
+      <section>
+        <footer-component></footer-component>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

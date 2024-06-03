@@ -1,0 +1,42 @@
+/* information section animations */
+
+.fa-square-facebook, .fa-instagram {
+  animation: leftSlide 1s;
+}
+
+@keyframes leftSlide {
+  0% {
+      transform: translateX(-300px);
+  }
+
+  100% {
+      transform: translateX(0px);
+  }
+}
+
+/* top section animations */
+
+/* Text animations */
+.hero-content .title {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out 0.1s forwards;
+}
+
+.hero-content .tagline {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out 0.3s forwards;
+}
+
+.hero-content button {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
