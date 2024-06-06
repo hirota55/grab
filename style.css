@@ -207,10 +207,25 @@ table.tb-01 td.related-td dd{
   padding:5px 0;
 }
 /*************** end company info *****************************/
-
-.recruit img{
-  width: 150px;
-  height: 150px;
+.recruit-career img,
+.recruit-beginner img,
+.recruit-casual img{
+  width: 100px;
+  height: 100px;
+  padding: 25px 25px;
+  border-radius: 50%;
+}
+.recruit-career img{
+  border: 1px solid #56cc4e;
+  box-shadow:5px 2px 2px #56cc4e;
+}
+.recruit-beginner img{
+  border: 1px solid #d36868;
+  box-shadow:5px 2px 2px #d36868;
+}
+.recruit-casual img{
+  border: 1px solid #65dcbe;
+  box-shadow:5px 2px 2px #65dcbe;
 }
 .bg-gray{
   background-color: #f7f5f5;
