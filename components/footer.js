@@ -27,7 +27,7 @@ class Footer extends HTMLElement {
               </div>
               <hr class="w-100 clearfix d-md-none" />
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                <p> <a href="../pages/info.html" class="text-white">企業情報</a> </p>
+                <p> <a href="../pages/info.html" class="text-white">会社概要</a> </p>
                  <p> <a href="../pages/recruit.html" class="text-white">採用情報</a> </p>
                 <p> <a href="../pages/contact.html" class="text-white">お問合せ</a> </p>
               </div>

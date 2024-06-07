@@ -18,7 +18,7 @@ class Header extends HTMLElement {
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link text-light" href="/pages/info.html" >
-                                    企業情報
+                                    会社概要
                                 </a>
                             </li>
                             <li class="nav-item">

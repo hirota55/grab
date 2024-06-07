@@ -57,9 +57,9 @@
 
 /* header section */
 .top {
-  height: 60vh;
-  width: 100%;
   position: fixed;
+  width: 100%;
+  height: 60vh;
   top: 40px;
   z-index: 1;
   background-image: linear-gradient(to right top, #000000, #190e14, #271725, #302139, #332d51, #383b65, #3b4a79, #3a598e, #4d6ca4, #607fba, #7393d0, #86a8e7);
@@ -69,8 +69,12 @@
 }
 .hero-content h4{
   font-size: 50px;
+  margin-top: -10rem !important;
 }
- 
+.hero-content h2{
+  margin-top: -6rem !important;
+}
+
 .hero-content button {
   box-shadow: 20px 20px 15px 1px rgba(00,00,00,0.2);
 }
@@ -108,7 +112,7 @@
 }
 
 .services .tab-content .card {
-  height: 300px; 
+  height: 300px;
   box-shadow: 2px 5px 10px #888888 !important;
 }
 
@@ -132,6 +136,11 @@
   .carousel-inner .carousel-item > div:first-child {
     display: block;
   }
+
+  .hero-content h4{
+    font-size: 30px;
+    margin-top:-5rem !important;
+  }
 }
 
 .carousel-inner .carousel-item.active,
@@ -148,14 +157,14 @@
     transform: translateX(25%);
   }
 
-  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-start.active,
   .carousel-inner .carousel-item-prev {
     transform: translateX(-25%);
   }
 }
 
 .carousel-inner .carousel-item-end,
-.carousel-inner .carousel-item-start { 
+.carousel-inner .carousel-item-start {
   transform: translateX(0);
 }
 
