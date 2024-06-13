@@ -88,7 +88,7 @@
   position: relative;
   top: calc(60vh + 40px);
   z-index: 5;
-  background-image: url('./svgs/violet.svg');
+  /*background-image: url('./svgs/violet.svg');*/
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -241,4 +241,20 @@ table.tb-01 td.related-td dd{
 }
 .bg-gray{
   background-color: #f7f5f5;
+}
+.text-circle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.circle {
+  display: inline-block;
+  background-color: #f98a71;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+
+.centerLine{
+  background-color: #d3dcde !important;
 }
