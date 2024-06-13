@@ -246,6 +246,7 @@ table.tb-01 td.related-td dd{
   display: flex;
   align-items: center;
   gap: 10px;
+
 }
 .circle {
   display: inline-block;
